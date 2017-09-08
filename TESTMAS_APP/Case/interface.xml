@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meap>
+    <interfaces>
+        <interface>
+            <name>if_addUser</name>
+            <path>addUser</path>
+            <method>POST</method>
+            <public>true</public>
+        </interface>
+		<interface>
+            <name>if_deleteUser</name>
+            <path>deleteUser</path>
+            <method>GET</method>
+            <public>true</public>
+        </interface>
+		<interface>
+            <name>if_getUser</name>
+            <path>getUser</path>
+            <method>ALL</method>
+            <public>true</public>
+        </interface>
+        <interface>
+            <name>if_updateUser</name>
+            <path>updateUser</path>
+            <method>POST</method>
+            <public>true</public>
+        </interface>
+    </interfaces>
+</meap>
